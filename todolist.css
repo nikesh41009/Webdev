@@ -1,0 +1,84 @@
+#container{
+    width:350px;
+    margin:0 auto;
+    border:3px solid;   
+    background-color: #f7f7f7;
+    
+
+}
+span {
+    background: red;
+    git init
+    padding-left:10px;
+    padding-right:0px ;
+    margin-right: 25px;
+    color: white;
+    display:inline-block;
+    width:0px;
+    height:30px;
+    transition: 0.3s linear;
+    opacity:0
+}
+li:hover span{
+    width:30px;
+    opacity: 1;
+}
+ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+}
+li{
+    background:lightsteelblue;
+    height:30px;
+    line-height: 30px;
+    padding:0;
+}
+input
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:150%;
+    font-size: 1.5rem;
+    background:lightgray;
+    width:100%;
+    padding:14px 20px;
+    box-sizing: border-box;
+    color:blue;
+}
+input:focus{
+    background: cornsilk;
+    border: 2px solid royalblue;
+    outline: none;
+}
+li:nth-child(2n)
+{
+background:aquamarine;
+}
+h1{
+    background-color: skyblue;
+    margin:0 auto;
+    text-align: center;
+    color:whitesmoke;
+    text-transform:uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    padding:3px 4px;
+    font-size:30px;
+    font-weight: 200%;
+}
+
+.fa-plus{
+    float:right;
+    padding:0 15px;
+}
+.completed{
+    color:blue;
+    text-decoration: line-through;
+    padding: 0px;
+}
+body{
+    background: #093028;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
